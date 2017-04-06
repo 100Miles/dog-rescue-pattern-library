@@ -1,0 +1,32 @@
+label {
+  font-family: var(--font-secondary);
+}
+
+h2, h3, legend {
+  color: #f2f2f2;
+  font-family: var(--font-secondary);
+}
+
+input, textarea, select {
+  background-color: var(--color-neutral-beige);
+  border-style: none;
+  transition: background-color 500ms linear;
+}
+
+input:focus, textarea:focus, select:focus {
+  background-color: var(--color-primary-light);
+  outline: 0;
+}
+
+.btn {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+  transition: all 250ms linear;
+}
+
+.btn:hover {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #fff;
+}

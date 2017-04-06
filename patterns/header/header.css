@@ -1,0 +1,57 @@
+.masthead {
+  background-color: #f2f2f2;
+}
+
+.nav a {
+  text-decoration: none;
+  background-color: var(--color-primary-dark);
+  color: #f2f2f2;
+  border-bottom: solid 2px var(--color-neutral-beige);
+  transition: all 300ms linear;
+}
+
+.nav a:hover {
+  background-color: var(--color-primary);
+  color: #f2f2f2;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .nav a {
+    display: inline-block;
+    background-color: #f2f2f2;
+    color: var(--color-primary-dark);
+    border-bottom: none;
+    transition: all 300ms linear;
+    border-radius: 3px;
+  }
+
+  .nav a:hover {
+    background-color: var(--color-primary);
+    color: #f2f2f2;
+  }
+
+  .nav {
+    float: right;
+    padding-top: 1.3rem;
+  }
+
+  .nav::before,
+  .nav::after, {
+    content: "";
+    display: table;
+  }
+
+  .nav::after {
+    clear: both;
+  }
+
+  .nav > li::before {
+    content: none;
+  }
+
+  .nav > li {
+    display: inline-block;
+  }
+
+}

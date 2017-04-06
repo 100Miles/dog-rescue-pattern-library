@@ -19,3 +19,11 @@
   border-color: var(--color-accent);
   color: #fff;
 }
+
+.title {
+  background-color: var(--color-primary-dark);
+}
+
+h2 {
+  color: #f2f2f2;
+}

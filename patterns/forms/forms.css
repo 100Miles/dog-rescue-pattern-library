@@ -1,5 +1,5 @@
 .flag-optional {
-  color: var(--color-accent);
+  color: var(--color-primary-light);
   font-family: var(--font-secondary);
 }
 
@@ -19,8 +19,10 @@
   color: #fff;
 }
 
-.is-validated > .error-message:first-child,
+.is-validated .error-message-highlighted,
 .is-validated input:invalid + .error-message,
+.is-validated textarea:invalid + .error-message,
+.is-validated select:invalid + .error-message,
 .is-validated input:invalid + label + .error-message {
   display: block;
 }
@@ -44,10 +46,6 @@ p span {
   background-color: var(--color-accent);
   border-color: var(--color-accent);
   color: #fff;
-}
-
-.title {
-  background-color: var(--color-primary-dark);
 }
 
 .field-group {
