@@ -13,8 +13,22 @@ hr {
 
 .footer a svg {
   color: var(--color-primary);
+  transition: color 250ms linear;
 }
 
 .footer a {
   text-decoration: none;
+
+}
+
+.footer a svg:hover {
+  color: #f2f2f2;
+}
+
+.footer small {
+  color: var(--color-neutral-text);
+}
+
+hr {
+  border-color: var(--color-neutral-text);
 }
