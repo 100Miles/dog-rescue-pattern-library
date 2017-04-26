@@ -50,7 +50,9 @@
   </div>
   <form class="text-left" method="post" novalidate>
     <fieldset class="">
-      <legend class="unit xs-1 pad-t pad-b push-0 field-group normal"><h3 class="wrapper block gutter push-0 kilo"><span class="giga">About You</span></h3></legend>
+      <legend class="unit xs-1 pad-t pad-b push-0 field-group normal">
+        <h3 class="wrapper block gutter push-0 kilo"><span class="giga">About You</span></h3>
+      </legend>
       <div class="error-message error-message-highlighted push island-1-2 unit xs-1 gutter wrapper" role="alert" aria-live="assertive">
         <h4 class="push-0">
           <i class="icon i-32"><svg><use xlink:href="../../images/icons.svg#icon-error" /></svg></i>
@@ -183,7 +185,7 @@
         <div class="push-1-2 unit xs-1 m-1-2 gutter">
           <label for="province" class="micro">PROVINCE</label>
           <select class="micro" id="province" required aria-describedby="province-error">
-            <option value=""></option>
+            <option disabled selected value>Select your province</option>
             <option>Alberta</option>
             <option>British Columbia</option>
             <option>Manitoba</option>
@@ -230,7 +232,7 @@
         <div class="push-1-2 unit xs-1 m-1-2 gutter">
           <label for="primary-phone-type" class="micro">PRIMARY PHONE TYPE <em class="flag-optional micro normal">(optional)</em></label>
           <select class="micro" id="primary-phone-type">
-            <option value=""></option>
+            <option disabled selected value>Select primary phoen type</option>
             <option>Cell</option>
             <option>Home</option>
             <option>Work</option>
@@ -244,7 +246,7 @@
         <div class="push-1-2 unit xs-1 m-1-2 gutter">
           <label for="secondary-phone-type" class="micro">SECONDARY PHONE TYPE <em class="flag-optional micro normal">(optional)</em></label>
           <select class="micro" id="secondary-phone-type">
-            <option value=""></option>
+            <option disabled selected value>Select secondary phone type</option>
             <option>Cell</option>
             <option>Home</option>
             <option>Work</option>
@@ -258,7 +260,7 @@
         <div class="push-1-2 unit xs-1 m-1-2 gutter">
           <label for="phone-agree" class="micro">MAY WE CALL YOU AT WORK? <em class="flag-optional micro normal">(optional)</em></label>
           <select class="micro" id="phone-agree">
-            <option value=""></option>
+            <option disabled selected value>Select an option</option>
             <option>Yes</option>
             <option>No</option>
           </select>
