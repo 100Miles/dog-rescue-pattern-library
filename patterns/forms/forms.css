@@ -72,3 +72,13 @@ input:focus, textarea:focus, select:focus {
   background-color: var(--color-primary-light);
   outline: 0;
 }
+
+.check-label {
+  padding-left: 3rem;
+}
+
+input[type="checkbox"] + label::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+}

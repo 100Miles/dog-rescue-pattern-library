@@ -16,7 +16,6 @@ a {
 
 .dog-info-card p {
   color: #f1f1f1;
-
 }
 
 .dog-info-card svg {
@@ -25,7 +24,7 @@ a {
 
 .dog-info-card .content {
   position: absolute;
-  bottom: 5px;
+  bottom: 0;
   display: block;
   background-color: rgba(0, 188, 212, .7);
   transition: all 500ms linear;
@@ -68,5 +67,5 @@ a {
 }
 
 .info {
-  background-color: var(--color-primary-light)
+  background-color: var(--color-primary-light);
 }

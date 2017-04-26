@@ -75,7 +75,7 @@
 .dog-info-card .content {
   position: absolute;
   bottom: 5px;
-  width: 100%
+  width: 100%;
   background-color: rgba(0, 188, 212, .7);
   transition: all 500ms linear;
   overflow: hidden;

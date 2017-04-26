@@ -79,7 +79,17 @@
           <nav class="nav mega">
             <ul class="list-group">
                 <li>
-                  <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="/pages/available-dogs.html" target="_blank">
+                  <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/application.html" target="_blank">
+                    <div class="relative">
+                      <span>Application</span>
+                      <i class="icon i-18 absolute pin-cr">
+                        <svg><use xlink:href="#icon-pop-out" /></svg>
+                      </i>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/available-dogs.html" target="_blank">
                     <div class="relative">
                       <span>Available Dogs</span>
                       <i class="icon i-18 absolute pin-cr">
@@ -89,7 +99,7 @@
                   </a>
                 </li>
                 <li>
-                  <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="/pages/home.html" target="_blank">
+                  <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/home.html" target="_blank">
                     <div class="relative">
                       <span>Home</span>
                       <i class="icon i-18 absolute pin-cr">
@@ -1198,8 +1208,8 @@
   &lt;div class="grid wrapper pad-t-2 pad-b-1-2">
     &lt;div class="unit xs-1-2 gutter">
       &lt;i class="icon i-96 inline-block push-r-1-2">
-          &lt;svg>&lt;use xlink:href="../../images/logos.svg#logo-256"/>&lt;svg>
-        &lt;/svg>&lt;/svg>&lt;/i>
+          &lt;svg>&lt;use xlink:href="../images/logos.svg#logo-256"/>&lt;/svg>
+        &lt;/i>
       &lt;h6 class="icon-label milli inline-block pad-t">loyal rescue&lt;/h6>
       &lt;small class="micro block">Loyal Rescue Inc. &#xA9;&#xFE0F; 2005-2017&lt;/small>
     &lt;/div>
@@ -1209,22 +1219,22 @@
     &lt;div class="unit xs-1-4 s-1-2 pad-t text-right gutter-1-2">
       &lt;a href="#">
         &lt;i class="icon i-48 push push-r">
-            &lt;svg>&lt;use xlink:href="../../images/social.svg#twitter-24"/>&lt;svg>
-          &lt;/svg>&lt;/svg>&lt;/i>
-        &lt;a href="#">
-          &lt;i class="icon i-48 push push-r">
-              &lt;svg>&lt;use xlink:href="../../images/social.svg#facebook-24"/>&lt;svg>
-            &lt;/svg>&lt;/svg>&lt;/i>
-        &lt;/a>
-        &lt;a href="#">
-          &lt;i class="icon i-48 push push-r">
-              &lt;svg>&lt;use xlink:href="../../images/social.svg#instagram-24"/>&lt;svg>
-            &lt;/svg>&lt;/svg>&lt;/i>
-        &lt;/a>
+            &lt;svg>&lt;use xlink:href="../images/social.svg#twitter-24"/>&lt;/svg>
+          &lt;/i>
+      &lt;/a>
+      &lt;a href="#">
+        &lt;i class="icon i-48 push push-r">
+            &lt;svg>&lt;use xlink:href="../images/social.svg#facebook-24"/>&lt;/svg>
+          &lt;/i>
+      &lt;/a>
+      &lt;a href="#">
+        &lt;i class="icon i-48 push push-r">
+            &lt;svg>&lt;use xlink:href="../images/social.svg#instagram-24"/>&lt;/svg>
+          &lt;/i>
       &lt;/a>
     &lt;/div>
   &lt;/div>
-  &lt;hr class="pad-b wrapper">
+  &lt;hr class="pad-b wrapper push-0">
 &lt;/section>
 </pre></code>
             </div>
@@ -1290,17 +1300,18 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-forms-code-sample-copy-chunk">&lt;form class="text-left wrapper" method="post" novalidate=""&gt;
+              <code><pre id="forms-forms-code-sample-copy-chunk">&lt;form class="text-left" method="post" novalidate=""&gt;
   &lt;fieldset>
-    &lt;legend class="unit xs-1 gutter-1-2 pad-t pad-b push-0 field-group giga normal">Fieldset&lt;/legend>
-    &lt;div class="error-message error-message-highlighted push island-1-2 unit xs-1 gutter-1-2" role="alert" aria-live="assertive">
+    &lt;legend class="unit xs-1 pad-t pad-b push-0 field-group normal">
+      &lt;h3 class="wrapper block gutter push-0 kilo">&lt;span class="giga">Fieldset&lt;/span>&lt;/h3>&lt;/legend>
+    &lt;div class="error-message error-message-highlighted push island-1-2 unit xs-1 gutter wrapper" role="alert" aria-live="assertive">
       &lt;h4 class="push-0">
           &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="../../images/icons.svg#icon-error"/>&lt;/svg>&lt;/i>
           &lt;span class="icon-label">There are items that require your attention&lt;/span>
         &lt;/h4>
     &lt;/div>
-    &lt;div class="grid">
-      &lt;div class="push-1-2 unit xs-1 m-1-2 gutter-1-2">
+    &lt;div class="grid wrapper">
+      &lt;div class="push-1-2 unit xs-1 m-1-2 gutter">
         &lt;label for="name" class="micro">NAME&lt;/label>
         &lt;input id="name" required aria-describedby="name-error">
         &lt;p class="error-message milli island-1-4 push-0" id="name-error">
@@ -1308,7 +1319,7 @@
           &lt;span class="icon-label italic micro">Please provide a name&lt;/span>
         &lt;/p>
       &lt;/div>
-      &lt;div class="push-1-2 unit xs-1 m-1-2 gutter-1-2">
+      &lt;div class="push-1-2 unit xs-1 m-1-2 gutter">
         &lt;label for="email" class="micro">EMAIL&lt;/label>
         &lt;input type="email" id="email" required aria-describedby="email-error" placeholder="name@me.com">
         &lt;p class="error-message milli island-1-4 push-0" id="email-error">
@@ -1316,13 +1327,13 @@
           &lt;span class="icon-label italic micro">Please provide an email&lt;/span>
         &lt;/p>
       &lt;/div>
-      &lt;div class="push-1-2 unit xs-1 m-1-2 gutter-1-2">
+      &lt;div class="push-1-2 unit xs-1 m-1-2 gutter">
         &lt;label for="url" class="micro">WEBSITE &lt;em class="flag-optional micro normal">(optional)&lt;/em>&lt;/label>
         &lt;input type="url" id="url">
       &lt;/div>
-      &lt;div class="push-1-2 unit xs-1 m-1-2 gutter-1-2">
+      &lt;div class="push-1-2 unit xs-1 m-1-2 gutter">
         &lt;label for="province" class="micro">PROVINCE&lt;/label>
-        &lt;select class="micro" id="province" placeholder="Please select a province" required aria-describedby="province-error">
+        &lt;select class="micro" id="province" required aria-describedby="province-error">
           &lt;option value="">&lt;/option>
           &lt;option>Northwest Territories&lt;/option>
           &lt;option>British Columbia&lt;/option>
@@ -1335,7 +1346,7 @@
           &lt;span class="icon-label italic micro">Please select your province&lt;/span>
         &lt;/p>
       &lt;/div>
-      &lt;div class="push-1-2 unit xs-1 m-1-2 l-1-4 gutter-1-2">
+      &lt;div class="push-1-2 unit xs-1 m-1-2 l-1-4 gutter">
         &lt;label for="occupants" class="micro">OCCUPANTS&lt;/label>
         &lt;input type="number" min="1" placeholder="1" id="occupants" required aria-describedby="occupants-error">
         &lt;p class="error-message milli island-1-4 push-0" id="occupants-error">
@@ -1343,7 +1354,7 @@
           &lt;span class="icon-label italic micro">Please provide the number of occupants&lt;/span>
         &lt;/p>
       &lt;/div>
-      &lt;div class="push-1-2 unit xs-1 m-1-2 l-1-4 gutter-1-2">
+      &lt;div class="push-1-2 unit xs-1 m-1-2 l-1-4 gutter">
         &lt;label for="date-available" class="micro">DATE AVAILABLE&lt;/label>
         &lt;input type="date" id="date-available" required aria-describedby="date-available-error">
         &lt;p class="error-message milli island-1-4 push-0" id="date-available-error">
@@ -1351,7 +1362,7 @@
           &lt;span class="icon-label italic micro">Please provide the date of availability&lt;/span>
         &lt;/p>
       &lt;/div>
-      &lt;div class="push-1-2 unit xs-1 l-1-2 gutter-1-2">
+      &lt;div class="push-1-2 unit xs-1 l-1-2 gutter">
         &lt;input type="radio" name="phone-number-type" value="home" id="home">
         &lt;label for="home">Home&lt;/label>
         &lt;input type="radio" name="phone-number-type" value="cell" id="cell">
@@ -1361,7 +1372,7 @@
         &lt;input type="radio" name="phone-number-type" value="other" id="other">
         &lt;label for="other">Other&lt;/label>
       &lt;/div>
-      &lt;div class="push-1-2 unit xs-1 gutter-1-2">
+      &lt;div class="push-1-2 unit xs-1 gutter">
         &lt;label for="detailed-description" class="micro">DETAILED DESCRIPTION&lt;/label>
         &lt;textarea rows="4" id="detailed-description" required aria-describedby="detailed-description-error">&lt;/textarea>
         &lt;p class="error-message milli island-1-4 push-0" id="detailed-description-error">
@@ -1369,15 +1380,17 @@
           &lt;span class="icon-label italic micro">Please give a detailed description&lt;/span>
         &lt;/p>
       &lt;/div>
-      &lt;div class="push-1-2 pad-t-1-2 unit xs-1 gutter-1-2">
-        &lt;input type="checkbox" id="agree" required aria-describedby="agree-error">
-        &lt;label for="agree">I agree&lt;/label>
-        &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
-          &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#icon-error"/>&lt;/svg>&lt;/i>
-          &lt;span class="icon-label italic micro">Please agree&lt;/span>
-        &lt;/p>
+      &lt;div class="push-1-2 pad-t-1-2 unit xs-1 gutter">
+        &lt;div class="relative">
+          &lt;input type="checkbox" id="agree" required aria-describedby="agree-error">
+          &lt;label class="check-label" for="agree">I agree&lt;/label>
+          &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
+            &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#icon-error"/>&lt;/svg>&lt;/i>
+            &lt;span class="icon-label italic micro">Please agree&lt;/span>
+          &lt;/p>
+        &lt;/div>
       &lt;/div>
-      &lt;div class="pad-t-1-2 unit xs-1 gutter-1-2">
+      &lt;div class="pad-t-1-2 unit xs-1 gutter">
         &lt;button class="btn" type="submit">Send&lt;/button>
       &lt;/div>
     &lt;/div>
@@ -1457,12 +1470,12 @@
     &lt;/div>
     &lt;ul class="unit xs-1 l-3-4 text-center nav list-group push-0 gutter">
       &lt;li>
-        &lt;a class="micro block island-1-4" href="#">For Adoption&lt;/a>
+        &lt;a class="micro block island-1-4" href="#">Available Dogs&lt;/a>
       &lt;/li>
       &lt;li>
         &lt;a class="micro block island-1-4" href="#">Application&lt;/a>
       &lt;/li>
-      &lt;li float="">
+      &lt;li>
         &lt;a class="micro block island-1-4" href="#">Rescue Stories&lt;/a>
       &lt;/li>
       &lt;li>

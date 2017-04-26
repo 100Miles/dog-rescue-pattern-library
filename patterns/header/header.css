@@ -2,6 +2,11 @@
   background-color: #f2f2f2;
 }
 
+.masthead a {
+  text-decoration: none;
+  color: #212121;
+}
+
 .i-logo {
   height: 60px;
   width: 128px;
@@ -40,8 +45,18 @@
     color: #f2f2f2;
   }
 
+  .nav a:active {
+    background-color: var(--color-primary);
+    color: #f2f2f2;
+  }
+
+  .nav a.current {
+    background-color: var(--color-primary);
+    color: #f2f2f2;
+  }
+
   .nav::before,
-  .nav::after, {
+  .nav::after {
     content: "";
     display: table;
   }
