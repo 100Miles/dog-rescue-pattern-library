@@ -32,11 +32,16 @@ a {
 }
 
 .dog-info-card:hover .content {
-  background-color: var(--color-primary);
+  background-color: #f2f2f2;
+}
+
+.dog-info-card:hover p {
+  color: var(--color-neutral-text);
 }
 
 .dog-info-card:hover h2 {
-  background-color: var(--color-primary-dark);
+  background-color: #f2f2f2;
+  color: #212121;
 }
 
 .image-card h2 {
@@ -63,7 +68,15 @@ a {
 }
 
 .image-card:hover .content {
-  background-color: var(--color-primary-dark);
+  background-color: #f2f2f2;
+}
+
+.image-card:hover h2 {
+  color: #212121;
+}
+
+.image-card:hover svg {
+  color: #212121;
 }
 
 .info {
